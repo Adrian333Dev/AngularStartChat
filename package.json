@@ -6,7 +6,9 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "start": "firebase emulators:start --project=demo-project && ng serve"
+    "start": "concurrently \"firebase emulators:start --only firestore --project=demo-project\" \"ng serve\"",
+    "firebase:start": "firebase emulators:start",
+    "fs": "firebase emulators:start"
   },
   "private": true,
   "dependencies": {
@@ -14,10 +16,12 @@
     "@angular/common": "^17.0.0",
     "@angular/compiler": "^17.0.0",
     "@angular/core": "^17.0.0",
+    "@angular/fire": "^0.0.0",
     "@angular/forms": "^17.0.0",
     "@angular/platform-browser": "^17.0.0",
     "@angular/platform-browser-dynamic": "^17.0.0",
     "@angular/router": "^17.0.0",
+    "concurrently": "^8.2.2",
     "firebase": "^10.7.0",
     "ngxtension": "^1.4.0",
     "primeflex": "^3.3.1",
