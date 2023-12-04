@@ -10,8 +10,9 @@ import { Message } from '@shared/models';
       <li>
         <div class="avatar animate-in-primary">
           <img
+            style="width: 100px; height: 100px; object-fit: cover;"
             src="https://api.dicebear.com/7.x/bottts/svg?seed={{
-              message.author.split('@')[0]
+              message.author.split(' ').join('')
             }}"
           />
         </div>

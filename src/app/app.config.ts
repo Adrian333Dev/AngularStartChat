@@ -23,7 +23,6 @@ export const AUTH = new InjectionToken('Firebase auth', {
       connectAuthEmulator(auth, 'http://localhost:9099', {
         disableWarnings: true,
       });
-
     return auth;
   },
 });
@@ -32,12 +31,10 @@ export const FIRESTORE = new InjectionToken('Firebase firestore', {
   providedIn: 'root',
   factory: () => {
     let firestore: Firestore;
-    if (prodEnv.useEmulators) {
-      firestore = initializeFirestore(app, {});
-      connectFirestoreEmulator(firestore, 'localhost', 8080);
-    } else {
-      firestore = getFirestore();
-    }
+    if (prodEnv.useEmulators)
+      (firestore = initializeFirestore(app, {})),
+        connectFirestoreEmulator(firestore, 'localhost', 8080);
+    else firestore = getFirestore();
     return firestore;
   },
 });

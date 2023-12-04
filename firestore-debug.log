@@ -1,7 +1,5 @@
-Dec 04, 2023 3:19:11 AM com.google.cloud.datastore.emulator.firestore.websocket.WebSocketServer start
+Dec 05, 2023 1:04:51 AM com.google.cloud.datastore.emulator.firestore.websocket.WebSocketServer start
 INFO: Started WebSocket server on ws://127.0.0.1:9150
-Dec 04, 2023 3:19:12 AM com.google.cloud.datastore.emulator.firestore.websocket.WebSocketChannelHandler initChannel
-INFO: Connected to new websocket client
 API endpoint: http://127.0.0.1:8080
 If you are using a library that supports the FIRESTORE_EMULATOR_HOST environment variable, run:
 
@@ -9,64 +7,109 @@ If you are using a library that supports the FIRESTORE_EMULATOR_HOST environment
 
 Dev App Server is now running.
 
-Dec 04, 2023 3:19:12 AM com.google.cloud.datastore.emulator.firestore.websocket.WebSocketChannelHandler channelClosed
-INFO: Websocket client disconnected
-Dec 04, 2023 3:19:31 AM com.google.cloud.datastore.emulator.firestore.websocket.WebSocketChannelHandler initChannel
+Dec 05, 2023 1:05:02 AM com.google.cloud.datastore.emulator.firestore.websocket.WebSocketChannelHandler initChannel
 INFO: Connected to new websocket client
-Dec 04, 2023 3:19:31 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+Dec 05, 2023 1:05:02 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
 INFO: Detected non-HTTP/2 connection.
-Dec 04, 2023 3:19:31 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+Dec 05, 2023 1:05:02 AM com.google.cloud.datastore.emulator.firestore.websocket.WebSocketChannelHandler initChannel
+INFO: Connected to new websocket client
+Dec 05, 2023 1:05:02 AM com.google.cloud.datastore.emulator.firestore.websocket.WebSocketChannelHandler channelClosed
+INFO: Websocket client disconnected
+Dec 05, 2023 1:05:02 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
 INFO: Detected HTTP/2 connection.
-Dec 04, 2023 3:19:54 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
-INFO: Detected non-HTTP/2 connection.
-Dec 04, 2023 3:19:54 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
-INFO: Detected non-HTTP/2 connection.
-Dec 04, 2023 3:19:54 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
-INFO: Detected non-HTTP/2 connection.
-Dec 04, 2023 3:19:54 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
-INFO: Detected non-HTTP/2 connection.
-Dec 04, 2023 3:19:54 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
-INFO: Detected non-HTTP/2 connection.
-Dec 04, 2023 3:19:55 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
-INFO: Detected non-HTTP/2 connection.
-Dec 04, 2023 3:19:57 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
-INFO: Detected non-HTTP/2 connection.
-Dec 04, 2023 3:20:10 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
-INFO: Detected non-HTTP/2 connection.
-Dec 04, 2023 3:20:17 AM com.google.cloud.datastore.emulator.firestore.websocket.WebSocketChannelHandler channelClosed
+Dec 05, 2023 1:05:04 AM com.google.cloud.datastore.emulator.firestore.websocket.WebSocketChannelHandler channelClosed
 INFO: Websocket client disconnected
-Dec 04, 2023 3:20:17 AM com.google.cloud.datastore.emulator.firestore.websocket.WebSocketChannelHandler initChannel
+Dec 05, 2023 1:05:05 AM com.google.cloud.datastore.emulator.firestore.websocket.WebSocketChannelHandler initChannel
 INFO: Connected to new websocket client
-Dec 04, 2023 3:21:01 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
-INFO: Detected non-HTTP/2 connection.
-Dec 04, 2023 3:21:01 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
-INFO: Detected non-HTTP/2 connection.
-Dec 04, 2023 3:21:01 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
-INFO: Detected non-HTTP/2 connection.
-Dec 04, 2023 3:21:01 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
-INFO: Detected non-HTTP/2 connection.
-Dec 04, 2023 3:21:01 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
-INFO: Detected non-HTTP/2 connection.
-Dec 04, 2023 3:21:01 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
-INFO: Detected non-HTTP/2 connection.
-Dec 04, 2023 3:21:07 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+Dec 05, 2023 1:05:08 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
 INFO: Detected non-HTTP/2 connection.
 Multiple projectIds are not recommended in single project mode. Requested project ID demo-project, but the emulator is configured for angularstartchat-d6684. To opt-out of single project mode add/set the '"singleProjectMode": false' property in the firebase.json emulators config.
-Dec 04, 2023 3:21:07 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+Dec 05, 2023 1:05:08 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
 INFO: Detected non-HTTP/2 connection.
-Dec 04, 2023 3:21:10 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+Dec 05, 2023 1:05:09 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
 INFO: Detected non-HTTP/2 connection.
-Dec 04, 2023 3:21:45 AM com.google.cloud.datastore.emulator.firestore.websocket.WebSocketChannelHandler channelClosed
-INFO: Websocket client disconnected
-Dec 04, 2023 3:21:46 AM com.google.cloud.datastore.emulator.firestore.websocket.WebSocketChannelHandler initChannel
-INFO: Connected to new websocket client
-Dec 04, 2023 3:21:46 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+Multiple projectIds are not recommended in single project mode. Requested project ID demo-project, but the emulator is configured for angularstartchat-d6684. To opt-out of single project mode add/set the '"singleProjectMode": false' property in the firebase.json emulators config.
+Dec 05, 2023 1:05:10 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
 INFO: Detected non-HTTP/2 connection.
-Dec 04, 2023 3:21:46 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+Dec 05, 2023 1:05:10 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
 INFO: Detected non-HTTP/2 connection.
-Dec 04, 2023 3:21:46 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+Dec 05, 2023 1:06:10 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
 INFO: Detected non-HTTP/2 connection.
-Dec 04, 2023 3:22:08 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+Dec 05, 2023 1:06:10 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
 INFO: Detected non-HTTP/2 connection.
-Dec 04, 2023 3:22:13 AM com.google.cloud.datastore.emulator.firestore.websocket.WebSocketChannelHandler channelClosed
-INFO: Websocket client disconnected
+Dec 05, 2023 1:06:11 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+Dec 05, 2023 1:06:11 AM com.google.cloud.datastore.emulator.firestore.webchannel.FirestoreV1WebChannelAdapter$FirestoreWriteHandler onClose
+INFO: channel closed
+Dec 05, 2023 1:06:55 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+Multiple projectIds are not recommended in single project mode. Requested project ID demo-project, but the emulator is configured for angularstartchat-d6684. To opt-out of single project mode add/set the '"singleProjectMode": false' property in the firebase.json emulators config.
+Dec 05, 2023 1:06:55 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+Dec 05, 2023 1:06:55 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+Dec 05, 2023 1:07:26 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+Dec 05, 2023 1:07:56 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+Dec 05, 2023 1:07:56 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+Dec 05, 2023 1:07:56 AM com.google.cloud.datastore.emulator.firestore.webchannel.FirestoreV1WebChannelAdapter$FirestoreWriteHandler onClose
+INFO: channel closed
+Dec 05, 2023 1:07:57 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+Multiple projectIds are not recommended in single project mode. Requested project ID demo-project, but the emulator is configured for angularstartchat-d6684. To opt-out of single project mode add/set the '"singleProjectMode": false' property in the firebase.json emulators config.
+Dec 05, 2023 1:07:57 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+Dec 05, 2023 1:08:05 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+Multiple projectIds are not recommended in single project mode. Requested project ID demo-project, but the emulator is configured for angularstartchat-d6684. To opt-out of single project mode add/set the '"singleProjectMode": false' property in the firebase.json emulators config.
+Dec 05, 2023 1:08:05 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+Dec 05, 2023 1:08:05 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+Dec 05, 2023 1:08:06 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+Dec 05, 2023 1:08:06 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+Dec 05, 2023 1:08:06 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+Dec 05, 2023 1:08:24 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+Multiple projectIds are not recommended in single project mode. Requested project ID demo-project, but the emulator is configured for angularstartchat-d6684. To opt-out of single project mode add/set the '"singleProjectMode": false' property in the firebase.json emulators config.
+Dec 05, 2023 1:08:24 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+Dec 05, 2023 1:08:24 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+Dec 05, 2023 1:08:24 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+Dec 05, 2023 1:08:29 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+Dec 05, 2023 1:08:30 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+Multiple projectIds are not recommended in single project mode. Requested project ID demo-project, but the emulator is configured for angularstartchat-d6684. To opt-out of single project mode add/set the '"singleProjectMode": false' property in the firebase.json emulators config.
+Dec 05, 2023 1:08:30 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+Dec 05, 2023 1:08:59 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+Multiple projectIds are not recommended in single project mode. Requested project ID demo-project, but the emulator is configured for angularstartchat-d6684. To opt-out of single project mode add/set the '"singleProjectMode": false' property in the firebase.json emulators config.
+Dec 05, 2023 1:08:59 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+Dec 05, 2023 1:08:59 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+Dec 05, 2023 1:08:59 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+Dec 05, 2023 1:09:29 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+Dec 05, 2023 1:09:56 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+Multiple projectIds are not recommended in single project mode. Requested project ID demo-project, but the emulator is configured for angularstartchat-d6684. To opt-out of single project mode add/set the '"singleProjectMode": false' property in the firebase.json emulators config.
+Dec 05, 2023 1:09:57 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+Dec 05, 2023 1:09:58 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+Multiple projectIds are not recommended in single project mode. Requested project ID demo-project, but the emulator is configured for angularstartchat-d6684. To opt-out of single project mode add/set the '"singleProjectMode": false' property in the firebase.json emulators config.
+Dec 05, 2023 1:09:58 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
+Dec 05, 2023 1:10:59 AM io.gapi.emulators.netty.HttpVersionRoutingHandler channelRead
+INFO: Detected non-HTTP/2 connection.
